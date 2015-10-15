@@ -37,5 +37,14 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(2, framesCount);
 	}
+	
+	@Test
+	public void testOneFrameScoreIs8() {
+		bowlingGame.addFrame(new Frame(2, 6));
+		
+		int score = bowlingGame.score();
+		
+		assertEquals(8, score);
+	}
 
 }

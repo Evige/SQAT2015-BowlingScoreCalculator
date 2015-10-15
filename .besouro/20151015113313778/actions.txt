@@ -44,3 +44,12 @@ RefactoringAction 1444899103674 TestBowlingScoreCalculator.java RENAME testTwoFr
 EditAction 1444899180204 TestBowlingScoreCalculator.java 847 3 9 2
 CompilationAction 1444899183824 TestBowlingScoreCalculator.java
 EditAction 1444899183924 BowlingGame.java 651 6 4 0
+UnitTestCaseAction 1444899189064 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444899189064 TestBowlingScoreCalculator OK
+RefactoringAction 1444899215286 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444899217306 TestBowlingScoreCalculator.java RENAME test=>void testOne FIELD
+RefactoringAction 1444899220316 TestBowlingScoreCalculator.java RENAME testOne=>void testOneFrameScore FIELD
+RefactoringAction 1444899222826 TestBowlingScoreCalculator.java RENAME testOneFrameScore=>void testOneFrameScoreIs FIELD
+RefactoringAction 1444899224846 TestBowlingScoreCalculator.java RENAME testOneFrameScoreIs=>void testOneFrameScoreIs8 FIELD
+RefactoringAction 1444899226356 TestBowlingScoreCalculator.java RENAME testOneFrameScoreIs8=>void testOneFrameScoreIs8() METHOD
+EditAction 1444899259076 TestBowlingScoreCalculator.java 1014 4 12 3
