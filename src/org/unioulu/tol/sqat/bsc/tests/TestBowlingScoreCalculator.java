@@ -198,5 +198,25 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(112, score);
 	}
+	
+	@Test
+	public void testTwoSparesOnARow() {
+		List<Frame> frames = new ArrayList<>();
+		frames.add(new Frame(8, 2));
+		frames.add(new Frame(5, 5));
+		frames.add(new Frame(7, 2));
+		frames.add(new Frame(3, 6));
+		frames.add(new Frame(4, 4));
+		frames.add(new Frame(5, 3));
+		frames.add(new Frame(3, 3));
+		frames.add(new Frame(4, 5));
+		frames.add(new Frame(8, 1));
+		frames.add(new Frame(2, 6));
+		
+		bowlingGame.addAllFrames(frames);
+		int score = bowlingGame.score();
+		
+		assertEquals(98, score);
+	}
 
 }

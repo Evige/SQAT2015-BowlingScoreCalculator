@@ -260,3 +260,9 @@ UnitTestCaseAction 1444904360289 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444904360289 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444904585831 BowlingGame.java ADD boolean multipleStrikes FIELD
 EditAction 1444904941491 BowlingGame.java 1901 9 9 0
+UnitTestCaseAction 1444904945421 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444904945421 TestBowlingScoreCalculator OK
+RefactoringAction 1444904969161 TestBowlingScoreCalculator.java ADD void testTwoSpare FIELD
+RefactoringAction 1444904970191 TestBowlingScoreCalculator.java RENAME testTwoSpare=>void testTwoSpares FIELD
+RefactoringAction 1444904972711 TestBowlingScoreCalculator.java RENAME testTwoSpares=>void testTwoSparesOnARow() METHOD
+EditAction 1444905023965 TestBowlingScoreCalculator.java 5409 14 119 13
