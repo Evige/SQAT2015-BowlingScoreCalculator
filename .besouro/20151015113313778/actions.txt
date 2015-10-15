@@ -62,3 +62,7 @@ UnitTestSessionAction 1444899497578 TestBowlingScoreCalculator OK
 RefactoringAction 1444899507138 TestBowlingScoreCalculator.java ADD void test FIELD
 RefactoringAction 1444899523988 BowlingGame.java ADD int score FIELD
 EditAction 1444899566190 TestBowlingScoreCalculator.java 1044 4 12 3
+CompilationAction 1444899569530 TestBowlingScoreCalculator.java
+CompilationAction 1444899569530 TestBowlingScoreCalculator.java
+CompilationAction 1444899569530 TestBowlingScoreCalculator.java
+EditAction 1444899569600 BowlingGame.java 724 6 5 0
