@@ -28,3 +28,4 @@ RefactoringAction 1444898882884 TestBowlingScoreCalculator.java RENAME testTwoTh
 RefactoringAction 1444898886394 TestBowlingScoreCalculator.java RENAME testOneFrame()=>void testOneFrameDone() METHOD
 RefactoringAction 1444898920684 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
 EditAction 1444898940724 TestBowlingScoreCalculator.java 685 3 6 1
+EditAction 1444898944234 BowlingGame.java 666 6 4 0
