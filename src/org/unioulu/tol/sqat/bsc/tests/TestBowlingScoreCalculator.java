@@ -46,5 +46,8 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(8, score);
 	}
+	
+	@Test
+	public void test
 
 }
