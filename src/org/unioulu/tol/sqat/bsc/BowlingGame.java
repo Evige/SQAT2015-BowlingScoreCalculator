@@ -8,6 +8,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private boolean isNextFrameBonus = false;
+	private boolean strikeHappened = false;
 	
 	public BowlingGame(){}
 	
@@ -28,7 +29,12 @@ public class BowlingGame {
 		int score = 0;
 		for (Frame frame : frames) {
 			if (isNextFrameBonus()) {
-				score = score + (frame.score() * 2);
+				if (strikeHappened) {
+					score = score + (frame.score() * 2);
+				} else {
+					int spareBonus = frame.getFirstThrow();
+					score = score + frame.score() + spareBonus;
+				}
 				this.isNextFrameBonus = false;
 			} else {
 				score = score + frame.score();
@@ -36,6 +42,12 @@ public class BowlingGame {
 	
 			if (frame.isStrike()) {
 				this.isNextFrameBonus = true;
+				this.strikeHappened = true;
+			}
+			
+			if (frame.isSpare()) {
+				this.isNextFrameBonus = true;
+				this.strikeHappened = false;
 			}
 		}
 		
