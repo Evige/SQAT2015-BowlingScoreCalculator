@@ -155,3 +155,10 @@ UnitTestSessionAction 1444901483100 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444901516434 Frame.java ADD boolean isStrike FIELD
 EditAction 1444901639620 Frame.java 937 6 9 0
 EditAction 1444901642910 TestBowlingScoreCalculator.java 2592 8 48 7
+UnitTestCaseAction 1444901646460 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901646460 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444901657000 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901657000 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444901748435 BowlingGame.java ADD List<Frame> get FIELD
+RefactoringAction 1444901750435 BowlingGame.java RENAME get=>List<Frame> getFrames() METHOD
+EditAction 1444901827869 TestBowlingScoreCalculator.java 2702 8 50 7
