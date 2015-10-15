@@ -17,11 +17,6 @@ public class TestBowlingScoreCalculator {
 	public void setup() {
 		bowlingGame = new BowlingGame();
 	}
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	@Test
 	public void testOneFrameDone() {
