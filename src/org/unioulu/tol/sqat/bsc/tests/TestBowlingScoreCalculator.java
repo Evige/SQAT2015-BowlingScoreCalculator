@@ -160,7 +160,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testStrikeAfterSpare() {
+	public void testSpareAfterStrike() {
 		List<Frame> frames = new ArrayList<>();
 		frames.add(new Frame(10, 0));
 		frames.add(new Frame(4, 6));
