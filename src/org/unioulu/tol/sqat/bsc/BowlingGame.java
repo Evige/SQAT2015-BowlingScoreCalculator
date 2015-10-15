@@ -44,8 +44,7 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
-		return false;
+		return this.isNextFrameBonus;
 	}
 	
 	public int getFramesCount() {
