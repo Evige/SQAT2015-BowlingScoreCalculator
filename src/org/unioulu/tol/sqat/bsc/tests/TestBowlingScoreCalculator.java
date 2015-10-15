@@ -19,13 +19,23 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testOneFrameDone() {
+	public void testOneFrameThrown() {
 		Frame frame = new Frame(2, 4);
 		bowlingGame.addFrame(frame);
 		
-		List<Frame> frames = bowlingGame.getFrames();
+		int framesCount = bowlingGame.getFramesCount();
 		
-		assertEquals(1, frames.size());
+		assertEquals(1, framesCount);
+	}
+	
+	@Test
+	public void testTwoFramesThrown() {
+		bowlingGame.addFrame(new Frame(2, 4));
+		bowlingGame.addFrame(new Frame(3, 2));
+		
+		int framesCount = bowlingGame.getFramesCount();
+		
+		assertEquals(2, framesCount);
 	}
 
 }
