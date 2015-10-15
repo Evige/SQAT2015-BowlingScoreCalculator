@@ -216,3 +216,6 @@ RefactoringAction 1444903071315 BowlingGame.java ADD boolean strikeHappened FIEL
 RefactoringAction 1444903196801 Frame.java ADD int getFirstThrow() METHOD
 EditAction 1444903342807 Frame.java 1028 7 11 0
 EditAction 1444903349347 BowlingGame.java 1567 9 9 0
+UnitTestCaseAction 1444903353087 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444903353087 TestBowlingScoreCalculator FAIL
+EditAction 1444903456963 BowlingGame.java 1569 9 9 0

@@ -33,7 +33,7 @@ public class BowlingGame {
 					score = score + (frame.score() * 2);
 				} else {
 					int spareBonus = frame.getFirstThrow();
-					score = score + frame.score() + spareBonus;
+					score = score + (frame.score() + spareBonus);
 				}
 				this.isNextFrameBonus = false;
 			} else {
