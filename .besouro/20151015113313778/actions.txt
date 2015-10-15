@@ -242,3 +242,4 @@ UnitTestSessionAction 1444903847493 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444903872987 TestBowlingScoreCalculator.java RENAME testStrikeAfterSpare()=>void testSpareAfterSpare() METHOD
 RefactoringAction 1444903875997 TestBowlingScoreCalculator.java RENAME testSpareAfterSpare()=>void testSpareAfterStrike() METHOD
 EditAction 1444904076295 TestBowlingScoreCalculator.java 4884 13 105 12
+EditAction 1444904079775 BowlingGame.java 1630 9 9 0

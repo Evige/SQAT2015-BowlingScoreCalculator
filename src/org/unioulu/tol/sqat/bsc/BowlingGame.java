@@ -30,7 +30,7 @@ public class BowlingGame {
 		for (Frame frame : frames) {
 			if (isNextFrameBonus()) {
 				if (strikeHappened) {
-					int strikeBonus = frame.getFirstThrow() + 10;
+					int strikeBonus = frame.getFirstThrow() * 2;
 					score = score + (frame.score() + strikeBonus);
 				} else {
 					int spareBonus = frame.getFirstThrow();
