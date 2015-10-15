@@ -190,3 +190,4 @@ UnitTestSessionAction 1444902209596 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444902362937 BowlingGame.java ADD boolean is FIELD
 RefactoringAction 1444902369437 BowlingGame.java RENAME is=>boolean isNextFrameBonus FIELD
 EditAction 1444902616251 Frame.java 963 6 10 0
+EditAction 1444902622291 BowlingGame.java 1265 9 9 0
