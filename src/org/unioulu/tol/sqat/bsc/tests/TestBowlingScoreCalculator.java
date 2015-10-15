@@ -104,9 +104,7 @@ public class TestBowlingScoreCalculator {
 	public void testFirstThrowIsStrike() {
 		List<Frame> frames = new ArrayList<>();
 		frames.add(new Frame(10, 0));
-		
-		bowlingGame.addAllFrames(frames);
-		
+	
 		boolean isStrike = frames.get(0).isStrike();
 		
 		assertEquals(true, isStrike);
