@@ -10,6 +10,7 @@ public class BowlingGame {
 	private boolean isNextFrameBonus = false;
 	private boolean strikeHappened = false;
 	private boolean multipleStrikes = false;
+	private boolean bonusThrowGranted = false;
 	
 	public BowlingGame(){}
 	
@@ -24,10 +25,12 @@ public class BowlingGame {
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		frames.add(new Frame(firstThrow, secondThrow));
 	}
 	
 	public int score(){
 		int score = 0;
+		int frameCount = 1;
 		for (Frame frame : frames) {
 			if (isNextFrameBonus()) {
 				if (strikeHappened) {
@@ -58,6 +61,11 @@ public class BowlingGame {
 			if (frame.isSpare()) {
 				this.isNextFrameBonus = true;
 				this.strikeHappened = false;
+			}
+			
+			frameCount = frameCount + 1;
+			if (frameCount == 10 && frame.isSpare()) {
+				
 			}
 		}
 		
