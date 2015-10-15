@@ -114,5 +114,17 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(true, isStrike);
 	}
+	
+	@Test
+	public void testStrikeCountedCorrectlyToScore() {
+		List<Frame> frames = new ArrayList<>();
+		frames.add(new Frame(10, 0));
+		frames.add(new Frame(3, 6));
+		
+		bowlingGame.addAllFrames(frames);
+		int score = bowlingGame.score();
+		
+		assertEquals(19, score);
+	}
 
 }

@@ -169,3 +169,11 @@ EditAction 1444901855399 BowlingGame.java 1003 9 9 0
 UnitTestCaseAction 1444901859279 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444901859279 TestBowlingScoreCalculator FAIL
 EditAction 1444901969755 TestBowlingScoreCalculator.java 2726 8 51 7
+UnitTestCaseAction 1444901975975 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901975975 TestBowlingScoreCalculator OK
+RefactoringAction 1444902015119 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444902018639 TestBowlingScoreCalculator.java RENAME test=>void testScore FIELD
+RefactoringAction 1444902019659 TestBowlingScoreCalculator.java RENAME testScore=>void testScoreIs FIELD
+RefactoringAction 1444902029679 TestBowlingScoreCalculator.java RENAME testScoreIs=>void testStrikeCountedCorrectly FIELD
+RefactoringAction 1444902034199 TestBowlingScoreCalculator.java RENAME testStrikeCountedCorrectly=>void testStrikeCountedCorrectlyToScore() METHOD
+EditAction 1444902076579 TestBowlingScoreCalculator.java 3010 9 57 8
