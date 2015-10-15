@@ -266,3 +266,12 @@ RefactoringAction 1444904969161 TestBowlingScoreCalculator.java ADD void testTwo
 RefactoringAction 1444904970191 TestBowlingScoreCalculator.java RENAME testTwoSpare=>void testTwoSpares FIELD
 RefactoringAction 1444904972711 TestBowlingScoreCalculator.java RENAME testTwoSpares=>void testTwoSparesOnARow() METHOD
 EditAction 1444905023965 TestBowlingScoreCalculator.java 5409 14 119 13
+UnitTestCaseAction 1444905027925 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444905027925 TestBowlingScoreCalculator OK
+RefactoringAction 1444905075977 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444905107507 TestBowlingScoreCalculator.java RENAME test=>void testLastFrameSpare() METHOD
+RefactoringAction 1444905249745 BowlingGame.java ADD boolean bonus/2 FIELD
+RefactoringAction 1444905254255 BowlingGame.java RENAME bonus/2=>boolean bonusPoint FIELD
+RefactoringAction 1444905257765 BowlingGame.java RENAME bonusPoint=>boolean bonusPointGranted FIELD
+RefactoringAction 1444905266779 BowlingGame.java RENAME bonusPointGranted=>boolean bonusPoGranted FIELD
+RefactoringAction 1444905270789 BowlingGame.java RENAME bonusPoGranted=>boolean bonusThrowGranted FIELD
