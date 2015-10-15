@@ -48,4 +48,8 @@ public class BowlingGame {
 			return false;
 		}
 	}
+	
+	public List<Frame> getFrames() {
+		return frames;
+	}
 }
