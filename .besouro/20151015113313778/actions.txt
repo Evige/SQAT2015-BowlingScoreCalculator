@@ -227,3 +227,10 @@ UnitTestCaseAction 1444903571479 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444903571489 TestBowlingScoreCalculator OK
 RefactoringAction 1444903600433 TestBowlingScoreCalculator.java ADD void testStrikeAfterSpare() METHOD
 EditAction 1444903654093 TestBowlingScoreCalculator.java 4355 12 91 11
+UnitTestCaseAction 1444903657833 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444903657833 TestBowlingScoreCalculator OK
+RefactoringAction 1444903680177 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444903682707 TestBowlingScoreCalculator.java RENAME test=>void testTwoStrikes FIELD
+RefactoringAction 1444903685737 TestBowlingScoreCalculator.java RENAME testTwoStrikes=>void testTwoStrikesOnARow FIELD
+RefactoringAction 1444903692267 TestBowlingScoreCalculator.java RENAME testTwoStrikesOnARow=>void testTwoStrikesOnARow() METHOD
+EditAction 1444903739841 TestBowlingScoreCalculator.java 4884 13 105 12
