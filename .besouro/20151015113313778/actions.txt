@@ -112,3 +112,6 @@ RefactoringAction 1444900753652 BowlingGame.java RENAME allThrowsDone=>boolean i
 RefactoringAction 1444900755162 BowlingGame.java RENAME isAllFramesDonw=>boolean isAllFramesDone() METHOD
 RefactoringAction 1444900831804 BowlingGame.java RENAME isAllFramesDone()=>boolean isGameFinished() METHOD
 EditAction 1444900878746 BowlingGame.java 938 8 8 0
+UnitTestCaseAction 1444900885166 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900885166 TestBowlingScoreCalculator OK
+EditAction 1444900946578 TestBowlingScoreCalculator.java 1855 6 30 5
