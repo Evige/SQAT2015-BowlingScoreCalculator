@@ -4,6 +4,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	private boolean isStrike = false;
+	private boolean isSpare = false;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -19,6 +20,9 @@ public class Frame {
 			score = 10;
 		} else {
 			score = firstThrow + secondThrow;
+			if (score == 10) {
+				this.isSpare = true;
+			}
 		}
 		
 		return score;
@@ -31,8 +35,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		return isSpare;
 	}
 
 	//return whether this is the last frame of the match
