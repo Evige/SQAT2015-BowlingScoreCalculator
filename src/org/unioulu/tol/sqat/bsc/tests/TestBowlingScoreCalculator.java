@@ -80,7 +80,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void gameScore81WhenGameIsFinished() {
+	public void testgameScore81WhenGameIsFinished() {
 		List<Frame> frames = new ArrayList<>();
 		frames.add(new Frame(1, 5));
 		frames.add(new Frame(3, 6));
@@ -98,7 +98,18 @@ public class TestBowlingScoreCalculator {
 		int score = bowlingGame.score();
 		
 		assertEquals(81, score);
+	}
+	
+	@Test
+	public void testFirstThrowIsStrike() {
+		List<Frame> frames = new ArrayList<>();
+		frames.add(new Frame(10, 0));
 		
+		bowlingGame.addAllFrames(frames);
+		
+		boolean isStrike = frames.get(0).isStrike();
+		
+		assertEquals(true, isStrike);
 	}
 
 }

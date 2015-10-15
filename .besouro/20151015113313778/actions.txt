@@ -142,3 +142,11 @@ EditAction 1444901097720 TestBowlingScoreCalculator.java 2372 7 44 6
 UnitTestCaseAction 1444901101550 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444901101550 TestBowlingScoreCalculator FAIL
 EditAction 1444901142505 TestBowlingScoreCalculator.java 2372 7 44 6
+UnitTestCaseAction 1444901149055 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901149055 TestBowlingScoreCalculator OK
+RefactoringAction 1444901188399 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444901191919 TestBowlingScoreCalculator.java RENAME gameScore81WhenGameIsFinished()=>void testgameScore81WhenGameIsFinished() METHOD
+RefactoringAction 1444901204439 TestBowlingScoreCalculator.java RENAME test=>void testFirst FIELD
+RefactoringAction 1444901209959 TestBowlingScoreCalculator.java RENAME testFirst=>void testFirstThrowIsStrike FIELD
+RefactoringAction 1444901212479 TestBowlingScoreCalculator.java RENAME testFirstThrowIsStrike=>void testFirstThrowIsStrike() METHOD
+EditAction 1444901479370 TestBowlingScoreCalculator.java 2634 8 49 7
