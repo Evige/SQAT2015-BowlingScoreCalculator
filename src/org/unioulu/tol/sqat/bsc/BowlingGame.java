@@ -50,6 +50,6 @@ public class BowlingGame {
 	}
 	
 	public List<Frame> getFrames() {
-		return frames;
+		return this.frames;
 	}
 }
