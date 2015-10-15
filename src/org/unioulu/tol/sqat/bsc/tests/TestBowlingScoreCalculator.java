@@ -17,7 +17,6 @@ public class TestBowlingScoreCalculator {
 	@Before
 	public void setup() {
 		bowlingGame = new BowlingGame();
-		List<Frame> frames = new ArrayList<>();
 	}
 	
 	@Test
@@ -61,6 +60,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testGameConsistOf10Frames() {
+		List<Frame> frames = new ArrayList<>();
 		frames.add(new Frame(2, 4));
 		frames.add(new Frame(2, 4));
 		frames.add(new Frame(2, 4));
@@ -80,6 +80,25 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void 
+	public void gameScore81WhenGameIsFinished() {
+		List<Frame> frames = new ArrayList<>();
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		
+		bowlingGame.addAllFrames(frames);
+		
+		int score = bowlingGame.score();
+		
+		assertEquals(81, score);
+		
+	}
 
 }
