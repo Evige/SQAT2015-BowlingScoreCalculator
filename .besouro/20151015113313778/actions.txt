@@ -66,3 +66,23 @@ CompilationAction 1444899569530 TestBowlingScoreCalculator.java
 CompilationAction 1444899569530 TestBowlingScoreCalculator.java
 CompilationAction 1444899569530 TestBowlingScoreCalculator.java
 EditAction 1444899569600 BowlingGame.java 724 6 5 0
+CompilationAction 1444899574310 TestBowlingScoreCalculator.java
+CompilationAction 1444899574310 TestBowlingScoreCalculator.java
+CompilationAction 1444899574310 TestBowlingScoreCalculator.java
+RefactoringAction 1444899581400 TestBowlingScoreCalculator.java REMOVE test FIELD
+CompilationAction 1444899582520 TestBowlingScoreCalculator.java
+CompilationAction 1444899582520 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444899582910 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444899582910 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444899587650 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444899587650 TestBowlingScoreCalculator OK
+RefactoringAction 1444899598700 TestBowlingScoreCalculator.java ADD void testTwo FIELD
+RefactoringAction 1444899600220 TestBowlingScoreCalculator.java RENAME testTwo=>void test FIELD
+RefactoringAction 1444899605740 TestBowlingScoreCalculator.java RENAME testOneFrameScoreIs8()=>void testScoreIs8() METHOD
+RefactoringAction 1444899612250 TestBowlingScoreCalculator.java RENAME testScoreIs8()=>void testScoreIs8After1Frame() METHOD
+RefactoringAction 1444899614760 TestBowlingScoreCalculator.java RENAME test=>void testScore FIELD
+RefactoringAction 1444899615770 TestBowlingScoreCalculator.java RENAME testScore=>void testScoreIs FIELD
+RefactoringAction 1444899629412 TestBowlingScoreCalculator.java RENAME testScoreIs=>void testScoreIs16 FIELD
+RefactoringAction 1444899633432 TestBowlingScoreCalculator.java RENAME testScoreIs16=>void testScoreIs16After2 FIELD
+RefactoringAction 1444899635452 TestBowlingScoreCalculator.java RENAME testScoreIs16After2=>void testScoreIs16After2Frames() METHOD
+EditAction 1444899680572 TestBowlingScoreCalculator.java 1232 5 16 4

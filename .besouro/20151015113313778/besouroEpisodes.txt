@@ -3,3 +3,13 @@
 1444899189064 test-first 2 140 true
 1444899497578 test-first 3 282 true
 1444899497579 test-first 3 282 true
+1444899582910 refactoring 3 75 true
+1444899582911 refactoring 3 75 true
+1444899582912 refactoring 3 75 true
+1444899582913 refactoring 2A 75 true
+1444899582914 refactoring 3 75 true
+1444899582915 refactoring 3 75 true
+1444899582916 refactoring 3 75 true
+1444899582917 refactoring 3 75 true
+1444899582918 refactoring 3 75 true
+1444899587650 regression 1 0 true

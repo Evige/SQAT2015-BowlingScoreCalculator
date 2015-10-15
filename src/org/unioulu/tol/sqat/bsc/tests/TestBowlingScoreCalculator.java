@@ -39,7 +39,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testOneFrameScoreIs8() {
+	public void testScoreIs8After1Frame() {
 		bowlingGame.addFrame(new Frame(2, 6));
 		
 		int score = bowlingGame.score();
@@ -48,6 +48,13 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void test
+	public void testScoreIs16After2Frames() {
+		bowlingGame.addFrame(new Frame(0, 8));
+		bowlingGame.addFrame(new Frame(8, 0));
+		
+		int score = bowlingGame.score();
+		
+		assertEquals(16, score);
+	}
 
 }
