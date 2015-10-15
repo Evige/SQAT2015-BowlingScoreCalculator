@@ -17,3 +17,14 @@ RefactoringAction 1444898474373 TestBowlingScoreCalculator.java ADD import org.u
 RefactoringAction 1444898687215 TestBowlingScoreCalculator.java RENAME testTwoThrows()=>void testTwoThrowsScore() METHOD
 RefactoringAction 1444898688733 TestBowlingScoreCalculator.java RENAME testTwoThrowsScore()=>void testTwoThrowsScore6() METHOD
 EditAction 1444898698072 TestBowlingScoreCalculator.java 641 3 6 1
+UnitTestCaseAction 1444898702962 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444898702962 TestBowlingScoreCalculator.testTwoThrowsScore6 FAIL
+RefactoringAction 1444898753272 TestBowlingScoreCalculator.java RENAME testTwoThrowsScore6()=>void testTwoThrows() METHOD
+RefactoringAction 1444898780284 TestBowlingScoreCalculator.java RENAME testTwoThrows()=>void testTwoThrowsGiven() METHOD
+RefactoringAction 1444898838344 BowlingGame.java ADD List<Frame> frames/2 FIELD
+RefactoringAction 1444898842364 BowlingGame.java RENAME frames/2=>List<Frame> getFrames FIELD
+RefactoringAction 1444898843384 BowlingGame.java RENAME getFrames=>List<Frame> getFrames() METHOD
+RefactoringAction 1444898882884 TestBowlingScoreCalculator.java RENAME testTwoThrowsGiven()=>void testOneFrame() METHOD
+RefactoringAction 1444898886394 TestBowlingScoreCalculator.java RENAME testOneFrame()=>void testOneFrameDone() METHOD
+RefactoringAction 1444898920684 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
+EditAction 1444898940724 TestBowlingScoreCalculator.java 685 3 6 1
