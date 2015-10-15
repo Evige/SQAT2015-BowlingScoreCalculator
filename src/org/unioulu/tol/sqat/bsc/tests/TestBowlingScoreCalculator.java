@@ -2,6 +2,7 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Before;
@@ -55,6 +56,27 @@ public class TestBowlingScoreCalculator {
 		int score = bowlingGame.score();
 		
 		assertEquals(16, score);
+	}
+	
+	@Test
+	public void testGameConsistOf10Frames() {
+		List<Frame> frames = new ArrayList<>();
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		frames.add(new Frame(2, 4));
+		
+		bowlingGame.addAllFrames(frames);
+		
+		boolean isGameFinished = bowlingGame.isGameFinished();
+		
+		assertEquals(true, isGameFinished);
 	}
 
 }

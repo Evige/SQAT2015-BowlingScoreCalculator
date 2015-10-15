@@ -15,6 +15,10 @@ public class BowlingGame {
 		
 	}
 	
+	public void addAllFrames(List<Frame> allFrames) {
+		this.frames = allFrames;
+	}
+	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 	}
@@ -35,5 +39,13 @@ public class BowlingGame {
 	
 	public int getFramesCount() {
 		return frames.size();
+	}
+	
+	public boolean isGameFinished() {
+		if (frames.size() == 10) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
