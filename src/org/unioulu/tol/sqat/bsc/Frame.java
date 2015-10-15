@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private boolean isStrike = false;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -11,15 +12,20 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		int score = firstThrow + secondThrow;
+		int score = 0;
+		if (firstThrow == 10) {
+			this.isStrike = true;
+			score = 10;
+		} else {
+			score = firstThrow + secondThrow;
+		}
 		
 		return score;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		return isStrike;
 	}
 	
 	//return whether a frame is a spare or not

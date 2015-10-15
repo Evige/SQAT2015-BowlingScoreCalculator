@@ -150,3 +150,7 @@ RefactoringAction 1444901204439 TestBowlingScoreCalculator.java RENAME test=>voi
 RefactoringAction 1444901209959 TestBowlingScoreCalculator.java RENAME testFirst=>void testFirstThrowIsStrike FIELD
 RefactoringAction 1444901212479 TestBowlingScoreCalculator.java RENAME testFirstThrowIsStrike=>void testFirstThrowIsStrike() METHOD
 EditAction 1444901479370 TestBowlingScoreCalculator.java 2634 8 49 7
+UnitTestCaseAction 1444901483100 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901483100 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444901516434 Frame.java ADD boolean isStrike FIELD
+EditAction 1444901639620 Frame.java 937 6 9 0
