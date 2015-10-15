@@ -86,3 +86,7 @@ RefactoringAction 1444899629412 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444899633432 TestBowlingScoreCalculator.java RENAME testScoreIs16=>void testScoreIs16After2 FIELD
 RefactoringAction 1444899635452 TestBowlingScoreCalculator.java RENAME testScoreIs16After2=>void testScoreIs16After2Frames() METHOD
 EditAction 1444899680572 TestBowlingScoreCalculator.java 1232 5 16 4
+UnitTestCaseAction 1444899684212 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444899684212 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444899762684 BowlingGame.java REMOVE score FIELD
+EditAction 1444899771996 BowlingGame.java 726 6 6 0
