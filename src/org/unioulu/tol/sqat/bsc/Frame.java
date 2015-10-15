@@ -13,6 +13,7 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		int score = 0;
+		this.isStrike = false;
 		if (firstThrow == 10) {
 			this.isStrike = true;
 			score = 10;
