@@ -106,6 +106,7 @@ public class TestBowlingScoreCalculator {
 		frames.add(new Frame(10, 0));
 		
 		bowlingGame.addAllFrames(frames);
+		bowlingGame.score();
 	
 		List<Frame> framesFromGame = bowlingGame.getFrames();
 		
